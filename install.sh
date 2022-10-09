@@ -143,7 +143,7 @@ ADDITIONAL_MOUNTS="$LOCAL_CONFIG_DIR:/config:z $LOCAL_DATA_DIR:/data:z "
 ADDITIONAL_MOUNTS+=""
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Add Add main port [port] or [port:port] - LISTEN will be added
-SERVER_WEB_PORT="19000:19000"
+SERVER_WEB_PORT="19000:80"
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Same as SERVER_WEB_PORT and do not add SERVER_WEB_PORT here as it will be added
 SERVER_PORT_ADD_CUSTOM=""
